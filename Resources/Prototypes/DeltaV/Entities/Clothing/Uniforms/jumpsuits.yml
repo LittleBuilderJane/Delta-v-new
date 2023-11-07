@@ -232,3 +232,21 @@
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
+
+# Mercenary Uniform
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitContractor
+  name: contractor uniform
+  description: A padded suit usually worn by independent contractors.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Uniforms/Jumpsuit/contractor.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Uniforms/Jumpsuit/contractor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
